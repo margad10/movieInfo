@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: #232f3e;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+.search-container input,
+button {
+  padding: 5px 10px;
+  border: none;
+  font-size: 16px;
+}
+.search-container input {
+  border-radius: 3px 0 0 3px;
+}
+.search-container button {
+  border-radius: 0 3px 3px 0;
+  background: #f5c518;
+  cursor: pointer;
+}
+.search-container button:hover {
+  background: #ffdd45;
+}
