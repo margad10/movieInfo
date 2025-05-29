@@ -18,6 +18,11 @@ const showMovieData = (data) => {
 
     const movieElement = document.createElement('div')
     movieElement.innerHTML = `<h1> ${Title}</h1>
+                                      <p>${imdbRating}</p>
+                            <p>${Genre}</p>
+                            <p>${Plot}</p>
+                            <p>${Actors}</p>
+                            <p>${Released}</p>
                                      <p>${Runtime}</p>`
    
     movieContainer.appendChild(movieElement)

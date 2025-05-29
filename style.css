@@ -34,3 +34,46 @@ button {
 .search-container button:hover {
   background: #ffdd45;
 }
+.movie-container {
+  display: flex;
+  box-shadow: 0px 0px 10px palevioletred;
+  width:80%;
+  border-radius: 5px;
+
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+
+}
+.movie-poster img {
+  height: 450px;
+  border-radius: 5px 0 0 5px;
+  margin-right: 20px;
+}
+.movie-info h1{
+  text-align: center;
+  color: lightcoral;
+}
+.movie-info p {
+  background: #fff;
+  padding: 5px 15px;
+  margin-inline: 5px;
+  border: 2px solid cornsilk;
+  border-radius: 6px;
+  font-weight: 700;
+  margin-top: 20px;
+
+}
+
+@media only screen and (max-width: 620px) {
+  .movie-container {
+    display: block
+  }
+}
